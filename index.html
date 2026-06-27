@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechStart Hackathon</title>
+    <meta
+      name="description"
+      content="TechStart Hackathon — 48 часов кодинга, менторы, призы и формирование команды для начинающих разработчиков."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="#hero" class="logo">TechStart</a>
+        <nav class="nav-links">
+          <a href="#about">О хакатоне</a>
+          <a href="#timeline">Программа</a>
+          <a href="#prizes">Призы</a>
+          <a href="#register" class="nav-cta">Регистрация</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="hero">
+      <section class="hero section">
+        <div class="hero__glow"></div>
+        <div class="container hero__content">
+          <div class="hero__copy">
+            <p class="eyebrow">48 часов кодинга и драйва</p>
+            <h1>
+              Создай свой первый проект на
+              <span>TechStart Hackathon</span>
+            </h1>
+            <p class="hero__description">
+              Идеальный хакатон для тех, кто только вчера изучил базовый HTML и CSS и хочет сделать шаг к реальным проектам.
+            </p>
+            <div class="hero__actions">
+              <a href="#register" class="btn btn--primary">Участвовать</a>
+              <a href="#about" class="btn btn--secondary">Смотреть инфо</a>
+            </div>
+          </div>
+          <div class="hero__panel" aria-label="Краткая статистика">
+            <div class="hero__stat">
+              <strong>300+</strong>
+              <span>участников</span>
+            </div>
+            <div class="hero__stat">
+              <strong>24/7</strong>
+              <span>менторская поддержка</span>
+            </div>
+            <div class="hero__stat">
+              <strong>₽ 200k</strong>
+              <span>призовой фонд</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">О хакатоне</p>
+            <h2>Почему именно TechStart?</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Для новичков</h3>
+              <p>Понятные задачи, понятные условия и реальные сценарии для первых проектов.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Опытные менторы</h3>
+              <p>Поддержка 24/7 поможет преодолеть любой технический барьер в процессе.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Крутой нетворкинг</h3>
+              <p>Найдёшь команду, единомышленников и новых друзей по интересам.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Мощный буст</h3>
+              <p>Проект в портфолио уже после финала — идеальный старт карьеры.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Программа</p>
+            <h2>Маршрут хакатона по дням</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-day">Пятница · 18:00</span>
+                <h3>Старт</h3>
+                <p>Объявление тем, распределение команд и первые идеи для будущих проектов.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-day">Суббота · 12:00</span>
+                <h3>Экватор</h3>
+                <p>Чек-поинты с менторами, техническая поддержка и уточнение направления работы.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-day">Воскресенье · 15:00</span>
+                <h3>Финал</h3>
+                <p>Защита проектов, награждение победителей и обсуждение лучших решений.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="prizes" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Призовой фонд</p>
+            <h2>Награды для лучших команд</h2>
+          </div>
+          <div class="prize-grid">
+            <article class="prize-card prize-card--silver">
+              <span class="prize-rank">2 место</span>
+              <h3>Серебро</h3>
+              <p>Премия для сильной идеи и отличной реализации.</p>
+              <strong>₽ 60k</strong>
+            </article>
+            <article class="prize-card prize-card--gold">
+              <span class="prize-rank">1 место</span>
+              <h3>Золото</h3>
+              <p>Главный приз и возможность представить проект широкой аудитории.</p>
+              <strong>₽ 100k</strong>
+            </article>
+            <article class="prize-card prize-card--bronze">
+              <span class="prize-rank">3 место</span>
+              <h3>Бронза</h3>
+              <p>Поддержка для команд, которые уверенно двигаются к результату.</p>
+              <strong>₽ 40k</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="register" class="section section--compact">
+        <div class="container">
+          <div class="register-card">
+            <div class="register-card__copy">
+              <p class="eyebrow">Регистрация</p>
+              <h2>Подавай заявку и стань частью TechStart</h2>
+              <p>Заполни форму, и мы пришлём тебе приглашение и подробности о мероприятии.</p>
+            </div>
+            <form class="register-form">
+              <label>
+                <span>Имя</span>
+                <input type="text" name="name" placeholder="Ваше имя" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@example.com" />
+              </label>
+              <button type="submit" class="btn btn--primary">Подать заявку</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© 2026 TechStart Hackathon</p>
+        <div class="social-links">
+          <a href="#">Telegram</a>
+          <a href="#">Instagram</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
